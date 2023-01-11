@@ -7,7 +7,7 @@ The first step is to download the historical data for the Ethereum-USD pair usin
 Next, we use the MinMaxScaler from the sklearn library to scale the prices between 0 and 1. This is a common technique used in time series forecasting to ensure that the model is not sensitive to the scale of the input data.
 
 ## Model construction and training
-We use the Keras library to construct a simple LSTM model with one hidden layer and one output layer. The model is trained on the training set with 1 epoch.
+We use the Keras library to construct a simple LSTM model with one hidden layer and one output layer. The model is trained on the training set with 50 epoch.
 
 ## Results and evaluation
 The predictions are made on the last 100 days of the dataset, and the results are plotted using matplotlib.
